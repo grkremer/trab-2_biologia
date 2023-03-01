@@ -1,5 +1,0 @@
-for i in range(1,11):
-    seq = open(f'fonte/seq_{i}.fna', 'r')
-    file = open(f'seq{i}.fna', 'w')
-    seq = (seq.read().replace('\n','')[1:10000])
-    file.write(seq)
